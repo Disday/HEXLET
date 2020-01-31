@@ -12,4 +12,4 @@ const getSameParity = (arr) => {
   return resultArray;
 };
 const arr = [-1, 4, 5];
-console.log(getSameParity(arr));
+console.log(getSameParity(arr));123
