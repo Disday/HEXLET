@@ -10,4 +10,4 @@ const countUniqChars = str => {
 return resultedArray.length;
 }
 console.log(
-countUniqChars('qwdrf1v412v'));123123
+countUniqChars('qwdrf1v412v'));
