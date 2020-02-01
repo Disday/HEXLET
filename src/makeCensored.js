@@ -5,10 +5,11 @@ const makeCensored = (str, stopWords) => {
   const censor = '$#%!';
   for (const word of stringAsArray) {
     const replacedWord = stopWords.includes(word) ? censor : word;
-    console.log(`${word}-${replacedWord}`);
+    // console.log(`${word}-${replacedWord}`);
     resultedArray.push(replacedWord);
   }
   return resultedArray.join(' ');
 };
+export default makeCensored;
 console.log(makeCensored('When you play the game of thrones, you win or you die',
   ['play', 'you']));
