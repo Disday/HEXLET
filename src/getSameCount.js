@@ -6,17 +6,17 @@ const countUniqChars = str => {
   //     if (symbol === elem) {
   //       count += 1;
   // }
-    for (const symbol of stringAsArray) {
-      let start = stringAsArray.indexOf(symbol) + 1;
-      // console.log(start);
+  for (const symbol of stringAsArray) {
+    let start = stringAsArray.indexOf(symbol) + 1;
+    // console.log(start);
       
-      if (stringAsArray.includes(symbol, start)/* && symbol !== ' '*/) {
-        counter += 1;
-      }
+    if (stringAsArray.includes(symbol, start)/* && symbol !== ' '*/) {
+      counter += 1;
     }
-    return counter;
   }
-  const text2 = 'You know nothing Jon Snow';
-  console.log(
-    countUniqChars(text2) // 13
-  );
+  return counter;
+}
+const text2 = 'You know nothing Jon Snow';
+console.log(
+  countUniqChars(text2) // 13
+);

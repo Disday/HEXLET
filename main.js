@@ -1,4 +1,3 @@
-const fun = (x) => {
-  return x * x;
-};
-export default fun;
+console.log(
+
+4 < (5 || 3));
